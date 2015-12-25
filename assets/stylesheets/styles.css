@@ -188,7 +188,7 @@ aside button {
 }
 
 aside input {
-  border-style: none;
+  border: none;
   margin: 0 auto 4%;
   width: 90%;
 }
@@ -215,6 +215,7 @@ input {
 }
 
 input, textarea {
+  border: none;
   border: 0.1em solid rgba(120,120,120,0.4);
   border-radius: 0;
   font: 100%/1.6 "Oxygen", Helvetica, sans-serif;
