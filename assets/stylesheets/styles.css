@@ -212,6 +212,7 @@ form#contact_form textarea {
 
 input {
   -webkit-appearance: none;
+  border-radius: 0;
 }
 
 input, textarea {
@@ -222,7 +223,6 @@ input, textarea {
 input[type=submit], button {
   background: rgba(128,101,23,1);
   border: none;
-  border-radius: 0;
   color: rgba(255,255,255,1);
   font: 100%/1.6 "Advent Pro", sans-serif;
   padding: 1em 1.5em;
