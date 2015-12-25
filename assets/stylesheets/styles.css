@@ -1,0 +1,565 @@
+/* Color Palette
+  rgb(128,101,23) - gold
+  rgb(255,255,255) - white
+  rgb(0,0,0) - black
+*/
+
+/* CSS Reset */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, em, img, small, strong, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+figure, figcaption, footer, header, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* HTML5 Display Rule */
+article, aside, button, details, figcaption, figure, footer, header, input, label, main, menu, nav, section {
+  display: block;
+}
+
+/*  Responsive Grid System  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+/* Global Styles */
+html {
+  background: rgba(255,255,255,1);
+}
+
+body {
+  font: 100%/1.6 "Oxygen", Helvetica, sans-serif;
+  min-height: 100%;
+  width: 100%;
+}
+
+a, input[type=submit], button {
+  cursor: pointer;
+}
+
+.fa {
+  color: rgba(128,101,23,1);
+  transition: all 1s ease;
+}
+
+.fa:hover {
+  color: rgba(128,101,23,0.6);
+}
+
+#header_container {
+  background: rgba(255,255,255,1);
+}
+
+header {
+  margin: 0 auto;
+}
+
+h1 img {
+  float: left;
+  padding: 2% 0;
+}
+
+span.hidden {
+  height: 0.1em;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -625em;
+  top: auto;
+  width: 0.1em;
+}
+
+span.required {
+  color: rgba(255,40,40,1);
+}
+
+address {
+  font-style: normal;
+  padding: 2% 0;
+}
+
+address a {
+  color: rgba(128,101,23,1);
+}
+
+nav {
+  box-shadow: 0 0.5em 1em rgba(150,150,150,1);
+  clear: both;
+  margin: 0 auto;
+}
+
+nav ul {
+  background: rgba(128,101,23,0.2);
+  background: linear-gradient(rgba(128,101,23,0.2), rgba(140,140,140,0.8));
+  background: -webkit-linear-gradient(rgba(128,101,23,0.2), rgba(140,140,140,0.8));
+  background: -moz-linear-gradient(rgba(128,101,23,0.2), rgba(140,140,140,0.8));
+  list-style: none;
+}
+
+nav ul li a {
+  color: rgba(0,0,0,1);
+  display: block;
+  font: bold 100%/1.6 "Oxygen", Helvetica, sans-serif;
+  padding: 1em;
+  transition: all 0.5s ease;
+}
+
+nav ul li a:hover {
+  color: rgba(0,0,0,0.6);
+}
+
+nav ul li.active a {
+  background: rgba(0,0,0,0.4);
+  color: rgba(255,255,255,1);
+}
+
+a {
+  color: rgba(128,101,23,1);
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+}
+
+h2 {
+  font: 600 160%/1.6 "Advent Pro", sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.6;
+  margin: 0 0 2% 0;
+}
+
+dl {
+  margin: 2% 0;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+h3 {
+  font: 700 120%/1.6 "Oxygen", Helvetica, sans-serif;
+}
+
+aside {
+  background: rgba(128,101,23,0.1);
+  height: auto;
+  margin: 2% 0;
+}
+
+aside h2 {
+  text-align: center;
+}
+
+aside p {
+  margin: 2% 0;
+}
+
+aside ol li {
+  font-size: 80%;
+  list-style: decimal;
+  margin: 0 0 0 10%;
+}
+
+aside ul.checklist li {
+  font-size: 80%;
+  list-style: none;
+  margin: 0 0 0 2em;
+}
+
+aside ul.checklist li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  padding: 0 1.6em 0 0;
+  margin: -1.25em;
+}
+
+aside button {
+  margin: 0 auto;
+}
+
+aside input {
+  border-style: none;
+  margin: 0 auto 4%;
+  width: 90%;
+}
+
+aside label {
+  display: none;
+}
+
+form#contact_form {
+  font: 100%/1.6 "Oxygen", Helvetica, sans-serif;
+}
+
+form#contact_form input[type=text], form#contact_form input[type=email], form#contact_form textarea {
+  margin: 0 0 4% 0;
+  width: 100%;
+}
+
+form#contact_form textarea {
+  height: 10em;
+}
+
+input, textarea {
+  font: 100%/1.6 "Oxygen", Helvetica, sans-serif;
+  padding: 1em;
+}
+
+input[type=submit], button {
+  background: rgba(128,101,23,1);
+  border: none;
+  color: rgba(255,255,255,1);
+  font: 100%/1.6 "Advent Pro", sans-serif;
+  padding: 1em 1.5em;
+  transition: all 1s ease;
+  text-transform: uppercase;
+}
+
+input[type=submit] a, button a {
+  color: rgba(255,255,255,1);
+}
+
+input[type=submit]:hover, button:hover {
+  background: rgba(128,101,23,0.6);
+}
+
+input[type=submit]:active, button:active {
+  background: rgba(128,101,23,0.6);
+}
+
+footer {
+  border-top: 0.1em solid rgba(120,120,120,0.4);
+  clear: both;
+  height: 10em;
+  margin: 0 auto;
+  padding: 1% 0 0 0;
+}
+
+/* Accordion */
+.accordion {
+  overflow: hidden;
+  box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.25);
+  border-radius: 0.2em;
+  background: rgba(245,245,245,1);
+}
+
+.accordion-section-title {
+  border-bottom: 0.1em solid rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,1);
+  display: inline-block;
+  padding: 1em;
+  text-shadow: 0 0.1em 0 rgba(26,26,26,1);
+  transition: all linear 0.15s;
+  width: 100%;
+}
+ 
+.accordion-section-title.active, .accordion-section-title:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+.accordion-section-title:before {
+  content: "\f0d7";
+  font-family: "FontAwesome";
+  padding: 0 1em 0 0;
+}
+
+.accordion-section-title.active:before {
+  content: "\f0d8";
+  font-family: "FontAwesome";
+  padding: 0 1em 0 0;
+}
+
+.accordion-section:last-child .accordion-section-title {
+    border-bottom: none;
+}
+ 
+.accordion-section-content {
+    padding: 1em;
+    display: none;
+}
+
+.accordion ul li {
+  list-style: disc;
+  margin: 0 0 0 2em;
+}
+
+.banner {
+  position: relative; 
+}
+
+.banner img {
+  box-shadow: 0 0.5em 1em rgba(150,150,150,1);
+  width: 100%;
+  height: auto;
+}
+
+.banner button {
+  margin: 0 auto;
+}
+
+.caption {
+  bottom: 4%;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 2%;
+}
+
+.caption-inner {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.caption-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.caption-content p {
+  background: rgba(255,255,255,0.4);
+  font: bold 100%/1.6 "Oxygen", Helvetica, sans-serif;
+  margin: 0 5%;
+  padding: 2%;
+  text-align: justify;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 769px) {
+
+  main {
+    width: 80%;
+  }
+
+  header {
+    width: 80%;
+  }
+
+  h1 img {
+    width: 40%;
+  }
+
+  address {
+    float: right;
+    text-align: right;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  article {
+    float: left;
+    margin: 2% 0;
+    width: 68%;
+  }
+  
+  aside {
+    float: right;
+    width: 26%;
+    padding: 2%;
+  }
+
+  footer {
+    width: 80%;
+  }
+
+  ul#social {
+    margin: 1% 0;
+  }
+
+  ul#social li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 2em 0 0;
+  }
+
+  ul#social li:last-child {
+    padding: 0;
+  }
+
+  a.link {
+    display: none;
+  }
+
+  section#contact {
+    width: 50%;
+    margin: 2% 0;
+  }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+  main {
+    width: 80%;
+  }
+
+  header {
+    width: 80%;
+  }
+
+   h1 img {
+      width: 50%;
+    }
+
+  address {
+    float: right;
+    text-align: right;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    padding: 1em 0.5em;
+  }
+
+  article {
+    clear: both;
+    margin: 2% 0;
+    width: 100%;
+  }
+
+  aside {
+    clear: both;
+    width: 92%;
+    padding: 4%;
+  }
+
+  footer {
+    width: 80%;
+  }
+
+  ul#social {
+    margin: 2% 0 0 0;
+  }
+
+  ul#social li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 2em 0 0;
+  }
+
+  ul#social li:last-child {
+    padding: 0;
+  }
+
+  .caption-content p {
+    font-size: 80%;
+  }
+
+  a.link {
+    display: none;
+  }
+
+  section#contact {
+    width: 92%;
+    margin: 2% 0;
+  }
+
+}
+
+/* Mobile Styles */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  header {
+    width: 90%;
+    text-align: center;
+  }
+
+  h1 img {
+      width: 100%;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  address {
+    clear: both;
+  }
+
+  nav {
+    width: 90%;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+  nav ul li a {
+    border-bottom: 0.1em solid rgba(255,255,255,1);
+    text-align: center;
+  }
+
+  article {
+    clear: both;
+    margin: 2% 0;
+    width: 100%;
+  }
+
+  aside {
+    clear: both;
+    width: 92%;
+    padding: 4%;
+  }
+
+  footer {
+    width: 90%;
+  }
+
+  ul#social {
+    margin: 2% 0 0 0;
+  }
+
+  ul#social li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 1em 0 0;
+  }
+
+  ul#social li:last-child {
+    padding: 0;
+  }
+
+  .caption-content p {
+    font-size: 70%;
+  }
+
+  .caption-content button {
+    display: none;
+  }
+
+  a.link {
+    display: block;
+  }
+
+  section#contact {
+    width: 90%;
+    margin: 2% 0;
+  }
+
+}
