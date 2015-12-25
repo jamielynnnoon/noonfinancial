@@ -215,6 +215,7 @@ input {
 }
 
 input, textarea {
+  border: 0.1em solid rgba(120,120,120,0.4);
   border-radius: 0;
   font: 100%/1.6 "Oxygen", Helvetica, sans-serif;
   padding: 1em;
@@ -222,7 +223,6 @@ input, textarea {
 
 input[type=submit], button {
   background: rgba(128,101,23,1);
-  border: none;
   color: rgba(255,255,255,1);
   font: 100%/1.6 "Advent Pro", sans-serif;
   padding: 1em 1.5em;
