@@ -210,6 +210,10 @@ form#contact_form textarea {
   height: 10em;
 }
 
+input {
+  -webkit-appearance: none;
+}
+
 input, textarea {
   font: 100%/1.6 "Oxygen", Helvetica, sans-serif;
   padding: 1em;
