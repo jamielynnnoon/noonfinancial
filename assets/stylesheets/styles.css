@@ -210,7 +210,7 @@ form#contact_form textarea {
   height: 10em;
 }
 
-input {
+input, textarea {
   -webkit-appearance: none;
 }
 
