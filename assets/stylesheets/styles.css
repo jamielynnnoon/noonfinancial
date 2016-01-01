@@ -400,10 +400,6 @@ footer {
     padding: 0;
   }
 
-/*  a.link {
-    display: none;
-  }*/
-
   section#contact {
     width: 50%;
     margin: 2% 0;
@@ -476,10 +472,6 @@ footer {
   .caption-content p {
     font-size: 80%;
   }
-
-/*  a.link {
-    display: none;
-  }*/
 
   section#contact {
     width: 92%;
@@ -554,15 +546,6 @@ footer {
   .caption-content p {
     font-size: 70%;
   }
-
-/*  .caption-content button {
-    display: none;
-  }*/
-
-/*  a.link {
-    color: rgba(255,255,255,1);
-    display: block;
-  }*/
 
   section#contact {
     width: 90%;
