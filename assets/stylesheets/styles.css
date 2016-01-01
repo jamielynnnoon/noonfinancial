@@ -400,9 +400,9 @@ footer {
     padding: 0;
   }
 
-  a.link {
+/*  a.link {
     display: none;
-  }
+  }*/
 
   section#contact {
     width: 50%;
@@ -477,9 +477,9 @@ footer {
     font-size: 80%;
   }
 
-  a.link {
+/*  a.link {
     display: none;
-  }
+  }*/
 
   section#contact {
     width: 92%;
@@ -555,13 +555,14 @@ footer {
     font-size: 70%;
   }
 
-  .caption-content button {
+/*  .caption-content button {
     display: none;
-  }
+  }*/
 
-  a.link {
+/*  a.link {
+    color: rgba(255,255,255,1);
     display: block;
-  }
+  }*/
 
   section#contact {
     width: 90%;
