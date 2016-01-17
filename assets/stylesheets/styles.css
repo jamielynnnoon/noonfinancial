@@ -251,6 +251,52 @@ footer {
   padding: 1% 0 0 0;
 }
 
+.g-recaptcha {
+  margin: 0 0 4% 0;
+}
+
+.banner {
+  position: relative; 
+}
+
+.banner img {
+  box-shadow: 0 0.5em 1em rgba(150,150,150,1);
+  width: 100%;
+  height: auto;
+}
+
+.banner button {
+  margin: 0 auto;
+}
+
+.caption {
+  bottom: 4%;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 2%;
+}
+
+.caption-inner {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.caption-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.caption-content p {
+  background: rgba(255,255,255,0.4);
+  font: bold 100%/1.6 "Oxygen", Helvetica, sans-serif;
+  margin: 0 5%;
+  padding: 2%;
+  text-align: justify;
+}
+
 /* Accordion */
 .accordion {
   overflow: hidden;
@@ -298,48 +344,6 @@ footer {
 .accordion ul li {
   list-style: disc;
   margin: 0 0 0 2em;
-}
-
-.banner {
-  position: relative; 
-}
-
-.banner img {
-  box-shadow: 0 0.5em 1em rgba(150,150,150,1);
-  width: 100%;
-  height: auto;
-}
-
-.banner button {
-  margin: 0 auto;
-}
-
-.caption {
-  bottom: 4%;
-  left: 0;
-  overflow: auto;
-  position: absolute;
-  right: 0;
-  top: 2%;
-}
-
-.caption-inner {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.caption-content {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.caption-content p {
-  background: rgba(255,255,255,0.4);
-  font: bold 100%/1.6 "Oxygen", Helvetica, sans-serif;
-  margin: 0 5%;
-  padding: 2%;
-  text-align: justify;
 }
 
 /* Desktop Styles */
