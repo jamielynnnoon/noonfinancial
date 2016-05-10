@@ -66,15 +66,6 @@ h1 img {
   padding: 2% 0;
 }
 
-span.hidden {
-  height: 0.1em;
-  overflow: hidden;
-  position: absolute;
-  text-indent: -625em;
-  top: auto;
-  width: 0.1em;
-}
-
 span.required {
   color: rgba(255,40,40,1);
 }
