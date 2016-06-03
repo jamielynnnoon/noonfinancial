@@ -23,7 +23,7 @@ $(document).ready(function() {
     e.preventDefault();
   });
 
-  var contactform =  document.getElementById('contact_form');
-  contactform.setAttribute('action', '//formspree.io/' + 'joe' + '@' + 'noonfinancial' + '.' + 'com');
+  // var contactform =  document.getElementById('contact_form');
+  // contactform.setAttribute('action', 'https://formspree.io/' + 'joe' + '@' + 'noonfinancial' + '.' + 'com');
 
 });
