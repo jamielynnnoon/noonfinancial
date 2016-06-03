@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   function close_accordion_section() {
     $(".accordion .accordion-section-title").removeClass("active");
     $(".accordion .accordion-section-content").slideUp(300).removeClass("open");
@@ -21,4 +22,8 @@ $(document).ready(function() {
 
     e.preventDefault();
   });
+
+  var contactform =  document.getElementById('contact_form');
+  contactform.setAttribute('action', '//formspree.io/' + 'joe' + '@' + 'noonfinancial' + '.' + 'com');
+
 });
