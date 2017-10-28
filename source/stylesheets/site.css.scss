@@ -1,0 +1,360 @@
+@charset "utf-8";
+@import "reset";
+@import "grid";
+
+$white: rgb(255,255,255);
+$black: rgb(0,0,0);
+$grey: rgb(210,210,210);
+$gold: rgb(128,101,23);
+$aqua: rgb(6,102,190);
+$defaultfont: 400 100%/1.6 "Nunito Sans", sans-serif;
+$h1: 700 180%/1.6 "Titillium Web";
+$h2: 700 160%/1.6 "Titillium Web";
+$h3: 700 140%/1.6 "Titillium Web";
+$h4: 700 120%/1.6 "Titillium Web";
+
+body {
+  background: $white;
+  color: $black;
+  font: $defaultfont;
+}
+
+p {
+  padding: 0 0 5% 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul#social {
+  padding: 0 0 1% 0;
+  li {
+    display: inline-block;
+    padding: 0 0 0 1rem;
+    &:first-child {
+      padding: 0
+    }
+    .fa {
+      color: rgba($gold,0.8);
+      transition: all 0.5s ease;
+      &:hover {
+        color: $gold;
+      }
+    }
+  }
+}
+
+main {
+  clear: both;
+  width: 90%;
+  margin: 1% auto;
+}
+
+a {
+  color: rgba($gold,0.8);
+  transition: all 0.5s ease;
+  &:focus,
+  &:hover {
+    color: $gold;
+  }
+}
+
+.loan-programs ul.loan-highlights li {
+  list-style: disc;
+  margin: 0 0 0 2rem;
+}
+
+.loan-program {
+  background: rgba($gold,0.1);
+  padding: 1rem;
+}
+
+.loan-program-title a.current_link {
+  color: $gold;
+}
+
+div.loan-program-title {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  padding: 0 0 1.5% 0;
+}
+
+h2#page-heading {
+  border-bottom: 0.05rem solid rgba($grey,0.5);
+  font: $h2;
+  margin: 0 0 1% 0;
+  padding: 1% 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3.subheading {
+  font: 400 140%/1.6 "Titillium Web";
+  text-align: center;
+}
+
+blockquote {
+  font-weight: 300;
+  margin: 0 auto;
+  min-height: 14rem;
+  text-align: center;
+  width: 80%;
+  cite {
+    font: 800 italic 100%/1.6 "Nunito Sans", sans-serif;
+  }
+}
+
+header#global-header {
+  border-bottom: 0.1rem solid rgba($grey,0.5);
+  padding: 5rem 0 2rem 0;
+  .logo {
+    float: left;
+    width: 68%;
+    img {
+      width: 18rem;
+    }
+  }
+}
+
+.nav-meta {
+  background: $black;
+  color: $white;
+  font-size: 70%;
+  height: 2rem;
+  line-height: 1rem;
+  padding: 1rem 0 0 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  a {
+    color: $white;
+  }
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.toggle-nav {
+  font-size: 200%;
+  float: right;
+}
+
+nav.menu {
+  a {
+    color: rgba($black,0.4);
+    font: 200 150% "Titillium Web";
+    text-transform: uppercase;
+    &:hover {
+      color: rgba($black,0.8);
+    }
+  }
+  .nav_active {
+    color: rgba($black,0.8);
+  }
+  ul.active {
+    display: none;
+  }
+  ul {
+    clear: both;
+    li {
+      border-bottom: 0.1rem solid rgba($black,0.1);
+      padding: 2% 0;
+      text-align: center;
+    }
+  }
+  .fa {
+    padding: 0 0 0 0.2rem;
+  }
+}
+
+input[type=submit], button {
+  background: $gold;
+  border: none;
+  color: $white;
+  font: $defaultfont;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+  &:hover {
+    background: $aqua;
+  }
+}
+
+.banner {
+  position: relative; 
+}
+
+.banner img {
+  box-shadow: 0 0.5rem 1rem $grey;
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  bottom: 4%;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 2%;
+}
+
+.caption-inner {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.caption-content {
+  display: table-cell;
+  vertical-align: middle;
+  p {
+    background: rgba($white,0.5);
+    font: 700 70%/1.6 "Nunito Sans", sans-serif;
+    margin: 0 5%;
+    padding: 2% 5%;
+    text-align: center;
+  }
+  button {
+    margin: 2% auto 0;
+  }
+}
+
+#contact {
+  width: 100%;
+  input, textarea {
+    font-size: inherit;
+    width: 100%;
+  }
+  input[type=text], input[type=email] {
+    border: 0.05rem solid $grey;
+    display: block;
+    padding: 0.5rem;
+    margin: 0 0 1rem 0;
+    width: 100%;
+  }
+  textarea {
+    border: 0.05rem solid $grey;
+    display: block;
+    padding: 1%;
+    margin: 0 0 1rem 0;
+    height: 10rem;
+  }
+  fieldset {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    legend {
+      font: $h1;
+    }
+  }
+}
+
+footer {
+  border-top: 0.05rem solid rgba($grey,0.5);
+  margin: 0 auto;
+  padding: 2% 0;
+  width: 90%;
+}
+
+.col-float-right {
+  float: right;
+  margin: 2% 0 2% 2%;
+}
+
+.col-float-left {
+  float: left;
+  margin: 2% 0;
+}
+
+figure img {
+  border-radius: 100%;
+}
+
+#mailing-list {
+  div {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    padding: 0 0 2% 0;
+    width: 100%;
+    &:last-child {
+      float: right;
+      margin: 0;
+    }
+  }
+  input {
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  input[type=text] {
+    border: 0.05rem solid $grey;
+  }
+  input[type=submit] {
+    border: none;
+  }
+}
+
+/* Tablet and Desktop */
+@media (min-width: 48em) {
+
+  p {
+    padding: 0 0 2% 0;
+  }
+
+  header#global-header {
+    .logo {
+      width: 32%;
+      img {
+        width: 20rem;
+      }
+    }
+  }
+
+  .nav-meta {
+    font-size: 100%;
+  }
+
+  .toggle-nav {
+    display: none;
+  }
+
+  nav.menu {
+    float: right;
+    ul.active {
+      display: inline-block;
+    }
+    ul li {
+      display: inline-block;
+      margin: 0 0 0 2rem;
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .caption-content {
+    p {
+      font-size: 100%;
+    }
+  }
+
+  #mailing-list {
+    div {
+      display: inline-block;
+      margin: 0 2% 0 0;
+      width: 31.5%;
+      &:last-child {
+        float: right;
+        margin: 0;
+      }
+    }
+  }
+
+}

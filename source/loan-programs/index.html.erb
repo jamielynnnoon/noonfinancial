@@ -1,0 +1,12 @@
+---
+title: Noon Financial | Loan Programs
+heading: Loan Programs
+---
+<h2 id="page-heading"><%= current_page.data.heading %></h2>
+  <section class="group">
+    <% data.loanprograms.program.each do |program| %>
+    <div class="col one-third">
+      <div class="loan-program-title"><%= link_to program.title, program %></div>
+    </div>
+    <% end %>
+  </section>

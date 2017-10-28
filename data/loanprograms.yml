@@ -1,0 +1,158 @@
+program:
+- title: "Conventional 1% Down"
+  description: "Gives our borrowers a low down payment, a great rate and a head start on their equity. Noon Financial Services is among the first to offer 1% down on conventional loans with a 2% equity boost!"
+  highlights: 
+    "<li>Clients pay 1%, Lender gifts 2%, giving borrowers 3% equity at closing</li>
+    <li>700+ FICO, 43% max DTI</li>
+    <li>Great low rates</li>
+    <li>Close in 30 days or less</li>
+    <li>Available with no monthly Mortgage Insurance</li>"
+  url: conventional-1-down
+- title: "Conventional"
+  description: "A Conventional Loan refers to any mortgage loan that is not insured or guaranteed by the Federal Government. They can be conforming and non-conforming loans. Conforming loans have terms and conditions that follow guidelines set by Fannie Mae and Freddie Mac."
+  highlights: 
+    "<li>620 Minimum FICO score required</li>
+    <li>As little as 3% down payment required</li>
+    <li>Available for purchase and refinance of primary and secondary residences, and investment properties</li>
+    <li>May be combined with additional down payment assistance programs</li>
+    <li>LTVs of 80% or higher required mortgage insurance</li>
+    <li>Up to 3% seller credit to buyer closing costs is permitted</li>
+    <li>Available for both Fixed and Adjustable Rate Mortgages and amount varies by county (call for details)</li>"
+  url: conventional
+- title: "HomeReady"
+  description: "Fannie Mae's conventional option for borrowers looking to purchase with a low down payment or refinance with limited equity."
+  highlights: 
+    "<li>Purchases up to 97% including FTHB</li>
+    <li>Refinances serviced by FNMA eligible up to 97% LTV</li>
+    <li>Reduced Mortgage Insurance</li>
+    <li>High Balance available</li>
+    <li>Relaxed AMI income limits based on census tracts</li>
+    <li>Gift funds eligible for entire down payment</li>"
+  url: homeready
+- title: "HomeStyle&reg; Renovation"
+  description: "The HomeStyle&reg; Renovation Loan program allows borrowers to purchase or refinance a property and include the repair/renovation costs in the loan with a single loan closing. Renovations must begin within 30 days of loan closing and be completed within 180 days."
+  highlights: 
+    "<li>Up to 50% of the as-completed value may be used for renovation/repair funds</li>
+    <li>Renovations/repairs must add value to the property and be permanently affixed</li>
+    <li>Purchase and rate/term refinance transaction on second homes and investment properties allowed</li>
+    <li>Occupancy and Maximum LTV/CLTV:
+      <dl>
+        <dt>Conforming Loan Amounts</dt>
+        <dd>
+          <ul>
+            <li>1 unit primary residence - 95%</li>
+            <li>2 unit primary residence - 85%</li>
+            <li>3-4 unit primary residence - 75%</li>
+            <li>1-unit second home - 90%</li>
+            <li>1-unit investment - Purch: 80%; R/T: 75%</li>
+          </ul>
+        </dd>
+        <dt>Agency High Balance Loan Amounts</dt>
+        <dd>
+          <ul>
+            <li>1 unit primary residence - 90%</li>
+            <li>2-4 unit primary residence - 75% &raquo; 1-unit second home - 65%</li>
+            <li>1-unit investment - 65%</li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>HomeStyle allows for extensive landscaping and luxury items, including pools (203k does not)</li>
+    <li>SFR/PUDs (attached/detached) and condominiums (written approval from the HOA for renovations/repairs is required for condominiums)</li>
+    <li>Unfinished model home/new construction may be eligible on a case-by-case basis</li>
+    <li>DU Approve/Eligible Finding required; no manual underwrites</li>
+    <li>Minimum credit score per DU</li>
+    <li>Subordinate financing eligible</li>
+    <li>Fixed rate only</li>
+    <li>Borrowers who own more than 4 properties (financed or owned free and clear) are ineligible regardless of the occupancy type</li>"
+  url: homestyle-renovation
+- title: "VA"
+  description: "A VA Loan (Veterans Administration) offers qualified Veterans in all 50 U.S. states a federally guaranteed home loan which requires little to no down payment and the following applies:"
+  highlights: 
+    "<li>Served in the U.S. Army, Air Force, Coast Guard, Marines, Navy, or National Guard</li>
+    <li>Available to U.S. Military personnel who have served 181 days during peacetime, 90 days during war, or honorably discharged—full details about eligibility can be found on the <a href='http://benefits.va.gov/HOMELOANS/purchaseco_eligibility.asp' target='_blank'>U.S. Department of Veteran Affairs</a> website</li>
+    <li>Available to a spouse of a serviceman either killed or missing in action</li>
+    <li>Services available to Veterans in danger of defaulting on their loans</li>
+    <li>Served after September 16, 1940</li>
+    <li>100% financing with no down payment required (providing the loan amount is under the county limit)</li>
+    <li>Eligibility for VA Loans can be used multiple times</li>
+    <li>Can be combined with down payment assistance programs to reduce down payment and/or closing costs</li>
+    <li>Gift funds permitted</li>
+    <li>Allows the seller to pay concessions towards closing costs and other attributes of the loan as well as value added items</li>
+    <li>Available for single-family homes, condos, PUDs, & manufactured homes</li>
+    <li>Available for both purchases and refinances</li>
+    <li>Maximum loan amount varies by county, so call for full current details</li>
+    <li>VA eligibility can be used multiple times</li>
+    <li>No upfront of monthly mortgage insurance or PMI</li>
+    <li>VA funding fee is required</li>"
+  url: va
+- title: "VA Elite"
+  description: "Takes our VA borrowers to a new level with industry-leading government rates and pricing. This is the obvious choice for our top-tier clients."
+  highlights: 
+    "<li>680+ FICO</li>
+    <li>$175,000 minimum loan limit</li>
+    <li>Maximum loan amount can exceed county limits</li>
+    <li>All fixed term mortgages</li>
+    <li>Single family primary residences</li>"
+  url: va-elite
+- title: "VA IRRRL"
+  description: "Serving those who have bravely served in the Armed Forces with a VA IRRRL with no appraisal. Allows our veteran borrowers to take advantage of their VA benefits by streamlining their current VA loan into a lower interest rate."
+  highlights: 
+    "<li>LTVs available up to 150%, unlimited CLTV</li>
+    <li>No appraisal</li>
+    <li>Maximum loan amount can exceed county limits</li>
+    <li>Available in all 50 states</li>
+    <li>AVM ran prior to submission</li>
+    <li>Elite pricing available</li>"
+  url: va-irrrl
+- title: "Jumbo"
+  description: "The only true Jumbo loan that is easy to close! Among the most competitive 30-year fixed rates in the industry, Noon Financial Services offers incentives on all purchase transactions. From primary homes to investment properties."
+  highlights: 
+    "<li>Eligible for primary, secondary and investment properties</li>
+    <li>FICOs as low as 700</li>
+    <li>Loan amounts up to $2.5 million</li>
+    <li>Fixed rate and ARM loans available</li>"
+  url: jumbo
+- title: "Jumbo Elite"
+  description: "Gives our Jumbo clients the pricing and turn times they deserve. Jumbo Elite loans not only allow Noon Financial Services to offer competitive pricing to our clients, but they also allow us to close in an impressive 25 days or less."
+  highlights: 
+    "<li>Loan amounts up to $2 million</li>
+    <li>Exclusive rate incentives for borrowers with 740+ FICO</li>
+    <li>Eligible for primary and second homes</li>
+    <li>ARM and fixed-rate options available</li>
+    <li>Same-day closings with UClose</li>"
+  url: jumbo-elite
+- title: "Limited Review Condo"
+  description: "Noon Financial makes your condo approvals quick and easy with our limited review process. All files receiving a limited review response in AUS will only need a minimum evaluation."
+  highlights: 
+    "<li>No condo questionnaire required</li>"
+  url: limited-review-condo
+- title: "Elite"
+  description: "The obvious choice for our top-tier borrowers! Comprised of some of the best conventional rates and pricing in the industry, Noon Financial's Elite program allows you to close quickly."
+  highlights: 
+    "<li>760+ FICO</li>
+    <li>80% LTV or less</li>
+    <li>$250,000+ loan amount</li>
+    <li>Property inspection waivers accepted</li>
+    <li>Underwrite to AUS findings</li>
+    <li>Fixed and ARMs available</li>"
+  url: elite
+- title: "Elite High Balance"
+  description: "Elite High Balance offers some of the best conventional high balance rates and pricing for our top-tier clients."
+  highlights: 
+    "<li>760+ FICO</li>
+    <li>80% LTV or less</li>
+    <li>$417,001+ loan amount</li>
+    <li>Property inspection waivers honored</li>
+    <li>Underwrite to AUS findings</li>
+    <li>Fixed and ARMs available</li>"
+  url: elite-high-balance
+- title: "FHA Elite"
+  description: "Takes our FHA borrowers to a new level with industry-leading government rates and pricing. This is the obvious choice for our top-tier clients."
+  highlights: 
+    "<li>680+ FICO</li>
+    <li>$175,000 - county loan limit</li>
+    <li>All fixed term mortgages</li>
+    <li>Single family primary residences</li>
+    <li>Debt ratios accepted up to 55%</li>"
+  url: fha-elite
