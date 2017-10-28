@@ -11,6 +11,11 @@
     <% else %>
       <title><%= current_page.data.title || "Noon Financial Services | " + @title %></title>
     <% end %>
+    <meta property="og:title" content="Noon Financial Services">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://noonfinancial.com">
+    <meta property="og:image" content="https://noonfinancial.com/images/noon-financial-og.png">
+    <meta property="og:description" content="Noon Financial Services, a financial services and mortgage brokerage firm serving the San Francisco Bay Area since 1994.">
     <%= favicon_tag "favicon.png" %>
     <%= stylesheet_link_tag "site" %>
     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
