@@ -18,7 +18,7 @@
     <meta property="og:description" content="Noon Financial Services, a financial services and mortgage brokerage firm serving the San Francisco Bay Area since 1994.">
     <%= favicon_tag "favicon.png" %>
     <%= stylesheet_link_tag "site" %>
-    <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
+    <%= stylesheet_link_tag "https://use.fontawesome.com/releases/v5.0.10/css/all.css", integrity: "sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg", crossorigin: "anonymous" %>
     <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700" %>
     <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" %>
     <%= javascript_include_tag "https://code.jquery.com/jquery-3.2.1.min.js", integrity: "sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", crossorigin: "anonymous" %>
@@ -73,13 +73,16 @@
         <section class="col one-third">
           <ul id="social">
             <li>
-              <%= link_to "<i class='fa fa-yelp fa-2x' aria-hidden='true'></i>".html_safe, "https://www.yelp.com/biz/noon-financial-services-san-ramon", {:title => "Yelp", :target => "_blank"} %>
+              <%= link_to "<i class='fab fa-yelp fa-2x' aria-hidden='true'></i>".html_safe, "https://www.yelp.com/biz/noon-financial-services-san-ramon", {:title => "Yelp", :target => "_blank"} %>
             </li>
             <li>
-              <%= link_to "<i class='fa fa-facebook fa-2x' aria-hidden='true'></i>".html_safe, "https://www.facebook.com/noonfinancial", {:title => "Facebook", :target => "_blank"} %>
+              <%= link_to "<i class='fab fa-facebook-f fa-2x' aria-hidden='true'></i>".html_safe, "https://www.facebook.com/noonfinancial", {:title => "Facebook", :target => "_blank"} %>
             </li>
             <li>
-              <%= link_to "<i class='fa fa-twitter fa-2x' aria-hidden='true'></i>".html_safe, "https://twitter.com/noonfinancial", {:title => "Twitter", :target => "_blank"} %>
+              <%= link_to "<i class='fab fa-twitter fa-2x' aria-hidden='true'></i>".html_safe, "https://twitter.com/noonfinancial", {:title => "Twitter", :target => "_blank"} %>
+            </li>
+            <li>
+              <%= link_to "<i class='fab fab-instagram fa-2x' aria-hidden='true'></i>".html_safe, "https://instagram.com/noonfinancial", {:title => "Instagram", :target => "_blank"} %>
             </li>
           </ul>
         </section>
@@ -103,7 +106,7 @@
       <div class="section group">
         <section class="col">
           <small>
-            Designed and developed with <i class="fa fa-heart" aria-hidden="true"></i> by <%= link_to "Jamie Noon", "https://jamienoon.com", :target => "_blank" %><br>
+            Designed and developed with <i class="fas fa-heart" aria-hidden="true"></i> by <%= link_to "Jamie Noon", "https://jamienoon.com", :target => "_blank" %><br>
             Copyright &copy; <%= Time.now.year %> Noon Financial Services. All rights reserved.
           </small>
         </section>

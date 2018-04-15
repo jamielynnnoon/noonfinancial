@@ -107,6 +107,11 @@ blockquote {
   }
 }
 
+.star-rating {
+  padding: 1rem 0;
+  text-align: center;
+}
+
 header#global-header {
   border-bottom: 0.1rem solid rgba($grey,0.5);
   padding: 5rem 0 2rem 0;
