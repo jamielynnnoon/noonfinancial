@@ -30,10 +30,6 @@ page "/loan-programs/*", :layout => "layout"
 #   },
 # )
 
-data.loanprograms.program.each do |program|
-  proxy "/loan-programs/#{program.url}", "/loan-programs/template.html", :locals => { :program => program }, :ignore => true
-end
-
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
