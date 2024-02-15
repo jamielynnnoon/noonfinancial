@@ -37,7 +37,6 @@
         <nav class="menu">
           <ul class="active">
             <li><%= link_to "Home", "/", nav_active("/") %></li>
-            <li><%= link_to "About", "/about", nav_active("/about/") %></li>
             <li><%= link_to "Contact", "/contact", nav_active("/contact/") %></li>
           </ul>
         </nav>
@@ -65,25 +64,9 @@
     </main>
 
     <footer>
-      <div class="section group">
-        <h4>
-          Subscribe to our mailing list for news and updates on current rates
-        </h4>
-        <form id="mailing-list" action="https://inspirix.createsend.com/t/y/s/baa/" method="post">
-          <div>
-            <input type="text" name="cm-name" placeholder="Name" required>
-          </div>
-          <div>
-            <input type="text" name="cm-baa-baa" placeholder="Email Address" required>
-          </div>
-          <div>
-            <input type="submit" value="Subscribe">
-          </div>
-        </form>
         <small>
           Copyright &copy; <%= Time.now.year %> Noon Financial Services. All rights reserved.
         </small>
-      </div>
     </footer>
 
   </body>
